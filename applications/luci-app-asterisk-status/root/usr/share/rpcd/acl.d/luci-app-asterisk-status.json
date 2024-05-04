@@ -1,0 +1,13 @@
+{
+    "luci-app-asterisk-status" : {
+        "description" : "Grant access to Asterisk CEL file and CLI",
+        "read" : {
+            "file" : {
+                "/var/log/asterisk/cel-custom/Master.csv" : [ "read" ],
+                "/etc/asterisk/cel_custom.conf" : [ "read" ],
+                "/usr/sbin/asterisk" : [ "exec" ],
+                "/bin/dd if=/dev/null of=/var/log/asterisk/cel-custom/Master.csv" : [ "exec" ]
+            }
+        }
+    }
+}
