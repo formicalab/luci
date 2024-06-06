@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"PO-Revision-Date: 2024-05-07 16:02+0000\n"
+"PO-Revision-Date: 2024-06-01 07:02+0000\n"
 "Last-Translator: Džiugas J <dziugas1959@hotmail.com>\n"
 "Language-Team: Lithuanian <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsolsr/lt/>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n % 10 == 1 && (n % 100 < 11 || n % 100 > "
 "19)) ? 0 : ((n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? "
 "1 : 2);\n"
-"X-Generator: Weblate 5.5.4-rc\n"
+"X-Generator: Weblate 5.6-dev\n"
 
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/status-olsr/mid.js:152
 msgid "Active MID announcements"
@@ -20,11 +20,11 @@ msgstr "Aktyvūs „MID“ paskelbimai"
 
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/status-olsr/topology.js:173
 msgid "Active OLSR nodes"
-msgstr ""
+msgstr "Aktyvūs „OLSR“ mazgai"
 
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/status-olsr/hna.js:252
 msgid "Active host net announcements"
-msgstr ""
+msgstr "Aktyvūs skleidėjo/p.k – vedėjo tinklo paskelbimai („HNA“)"
 
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrd.js:128
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrd6.js:126
@@ -34,7 +34,7 @@ msgstr "Pažangūs nustatymai"
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrd.js:69
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrd6.js:69
 msgid "Allow gateways with NAT"
-msgstr ""
+msgstr "Leisti tinklo tarpuvartes su „NAT“"
 
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrd.js:69
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrd6.js:69
@@ -44,7 +44,7 @@ msgstr ""
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrd.js:81
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrd6.js:81
 msgid "Announce uplink"
-msgstr ""
+msgstr "Paskelbti aukštynkryptį"
 
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/status-olsr/hna.js:170
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/status-olsr/routes.js:179
@@ -65,11 +65,11 @@ msgstr "Blogas („SNR“ < 5)"
 
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrdhna.js:17
 msgid "Both values must use the dotted decimal notation."
-msgstr ""
+msgstr "Abi vertės turi naudotis taškiniu dešimtainiu užrašu."
 
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/status-olsr/interfaces.js:142
 msgid "Broadcast address"
-msgstr ""
+msgstr "Transliacijos/-vimo adresas"
 
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/status-olsr/interfaces.js:136
 msgid "Device"
@@ -78,7 +78,7 @@ msgstr "Įrenginys"
 #: applications/luci-app-olsr/root/usr/share/luci/menu.d/luci-app-olsr-backend.json:14
 #: applications/luci-app-olsr/root/usr/share/luci/menu.d/luci-app-olsr-backend.json:56
 msgid "Display"
-msgstr ""
+msgstr "Rodyti"
 
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/status-olsr/smartgw.js:137
 msgid "Downlink"
@@ -112,6 +112,8 @@ msgid ""
 "Enable SmartGateway. If it is disabled, then all other SmartGateway "
 "parameters are ignored. Default is \"no\"."
 msgstr ""
+"Įjungti/Įgalinti „SmartGateway“. Jeigu jis yra išjungtas/neįgalintas, tada "
+"visi kiti „SmartGateway“ parametrai yra ignoruojami. Numatytas yra – „ne“."
 
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrdiface.js:41
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrdiface6.js:41
@@ -127,7 +129,7 @@ msgstr "Įjungta/Įgalinta (-as/-i)"
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/status-olsr/routes.js:292
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/status-olsr/topology.js:180
 msgid "Expected retransmission count"
-msgstr ""
+msgstr "Tikėtinas/Numatomas pakartotinių siuntimų skaičius"
 
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrd.js:153
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrd6.js:147
@@ -149,6 +151,8 @@ msgstr ""
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrd6.js:203
 msgid "Fisheye mechanism for TCs (checked means on). Default is \"on\""
 msgstr ""
+"„Fisheye“ mechanizmas skirtas „TCs“ (pažymėtumas nurodo įjungimą). "
+"Numatytoji reikšmė yra – „įjungta/-s“"
 
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/status-olsr/smartgw.js:132
 msgid "Gateway"
@@ -220,26 +224,26 @@ msgstr "„HNA“ intervalas"
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrdiface.js:226
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrdiface6.js:210
 msgid "HNA validity time"
-msgstr ""
+msgstr "„HNA“ tinkamumo laikas"
 
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrd.js:529
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrd6.js:505
 msgid "Hello"
-msgstr "Sveiki"
+msgstr "Sveiki/Labas"
 
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrd.js:383
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrd6.js:362
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrdiface.js:149
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrdiface6.js:133
 msgid "Hello interval"
-msgstr "„Labas“ intervalas"
+msgstr "„Sveiki/Labas“ intervalas"
 
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrd.js:394
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrd6.js:373
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrdiface.js:160
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrdiface6.js:144
 msgid "Hello validity time"
-msgstr ""
+msgstr "„Sveiki/Labas“ tinkamumo laikas"
 
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrdhna.js:17
 msgid "Hna4"
@@ -263,12 +267,16 @@ msgid ""
 "Hosts in an OLSR routed network can announce connectivity to external "
 "networks using HNA messages."
 msgstr ""
+"Skleidėjai/P.k – vedėjai maršrutizuotame „OLSR“ tinkle gali paskelbti "
+"prisijungimą prie išorinių tinklų naudojant „HNA“ pranešimus."
 
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrdhna6.js:12
 msgid ""
 "Hosts in an OLSR routed network can announce connectivity to external "
 "networks using HNA6 messages."
 msgstr ""
+"Skleidėjai/P.k – vedėjai maršrutizuotame „OLSR“ tinkle gali paskelbti "
+"prisijungimą prie išorinių tinklų naudojant „HNA6“ pranešimus."
 
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrd.js:218
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrd6.js:212
@@ -290,6 +298,8 @@ msgid ""
 "IP-version to use. If 6and4 is selected then one olsrd instance is started "
 "for each protocol."
 msgstr ""
+"IP versiją, kurią naudoti. Jei „6-ir-4“ yra parinktas, tada vienas „olsrd“ "
+"egzempliorius yra paleidžiamas kiekvienam protokolui."
 
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/status-olsr/smartgw.js:138
 msgid "IPv4"
@@ -307,6 +317,9 @@ msgid ""
 "be 255.255.255.255. Default is \"0.0.0.0\", which triggers the usage of the "
 "interface broadcast IP."
 msgstr ""
+"IPv4 transliacijos/-vimo adresas išsiunčiamiems „OLSR“ paketams. Vienas "
+"naudingas pavyzdys būtų 255.255.255.255. Numatytoji reikšmė yra „0.0.0.0“, "
+"kuri suaktyvina sąsajos/sietuvo transliavimo IP naudojimą."
 
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrd.js:367
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrdiface.js:133
@@ -319,6 +332,8 @@ msgid ""
 "IPv4 src address for outgoing OLSR packages. Default is \"0.0.0.0\", which "
 "triggers usage of the interface IP."
 msgstr ""
+"IPv4 „src“ adresas išsiunčiamiems „OLSR“ paketams. Numatytoji reikšmė yra „0."
+"0.0.0“, kuri suaktyvina sąsajos/sietuvo IP naudojimą."
 
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/status-olsr/smartgw.js:139
 msgid "IPv6"
@@ -329,7 +344,7 @@ msgstr "IPv6 – Interneto protokolo versija 6"
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrdiface.js:128
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrdiface6.js:117
 msgid "IPv6 multicast"
-msgstr ""
+msgstr "IPv6 daugiaadresinis transliavimas"
 
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrd.js:362
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrd6.js:346
@@ -345,6 +360,8 @@ msgstr ""
 msgid ""
 "IPv6 network must be given in full notation, prefix must be in CIDR notation."
 msgstr ""
+"IPv6 tinklas turi būti nurodytas pilnu užrašu, prielinksnis/priešdėlis turi "
+"būti randamas per „CIDR“."
 
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrd.js:376
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrd6.js:355
@@ -366,7 +383,7 @@ msgstr ""
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrd.js:113
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrd6.js:113
 msgid "IPv6-Prefix of the uplink"
-msgstr ""
+msgstr "IPv6 aukštynkrypio prielinksnis/priešdėlis"
 
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrd.js:257
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrd6.js:251
@@ -383,6 +400,8 @@ msgstr ""
 msgid ""
 "If this Node uses NAT for connections to the internet. Default is \"yes\"."
 msgstr ""
+"Jei šis tinklo mazgas naudoja „NAT“ prisijungimams prie interneto. Numatytas "
+"yra – „taip“."
 
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrdiface.js:33
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrdiface6.js:33
@@ -402,6 +421,10 @@ msgid ""
 "ethernet interfaces. Valid modes are \"mesh\" and \"ether\". Default is "
 "\"mesh\"."
 msgstr ""
+"Sąsajos/Sietuvo režimas yra naudojamas siekiant išvengti nereikalingų paketų "
+"persiuntimų perjungtose „eterneto“ sąsajose ir/arba sietuvuose. Tinkami "
+"režimai yra „junglusis/tankusis“ ir „eteris“. Numatytoji reikšmė yra „"
+"junglusis/tankusis“."
 
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrd.js:471
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrd6.js:450
@@ -412,7 +435,7 @@ msgstr "Sąsajos ir Sietuvai"
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrd.js:280
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrd6.js:274
 msgid "Interfaces Defaults"
-msgstr ""
+msgstr "Sąsajų ir Sietuvų numatytieji"
 
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrd.js:130
 msgid "Internet protocol"
@@ -424,6 +447,8 @@ msgid ""
 "Interval to poll network interfaces for configuration changes (in seconds). "
 "Default is \"2.5\"."
 msgstr ""
+"Tinklo sąsajų/sietuvų konfigūracijos pakeitimų apklausos intervalas "
+"(sekundėmis). Numatytoji vertė yra „2,5“."
 
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/status-olsr/routes.js:285
 msgid "Known OLSR routes"
@@ -436,7 +461,7 @@ msgstr "„LQ“"
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrd.js:181
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrd6.js:175
 msgid "LQ aging"
-msgstr ""
+msgstr "„LQ“ senėjimas"
 
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrd.js:191
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrd6.js:185
@@ -446,7 +471,7 @@ msgstr "„LQ“ algoritmas"
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrd.js:209
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrd6.js:203
 msgid "LQ fisheye"
-msgstr ""
+msgstr "„LQ fisheye“"
 
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrd.js:171
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrd6.js:165
@@ -537,7 +562,7 @@ msgstr "„MID“ intervalas"
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrdiface.js:204
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/frontend/olsrdiface6.js:188
 msgid "MID validity time"
-msgstr ""
+msgstr "„MID“ galiojimo laikas"
 
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/status-olsr/interfaces.js:138
 msgid "MTU"
@@ -553,6 +578,8 @@ msgid ""
 "Make sure that OLSRd is running, the \"jsoninfo\" plugin is loaded, "
 "configured on port 9090, and accepts connections from \"127.0.0.1\"."
 msgstr ""
+"Įsitikinkite, kad „OLSRd“ veikia, „jsoninfo“ papildinys yra įkeltas, "
+"sukonfigūruotas prievade – 9090, ir priima ryšius iš „127.0.0.1“."
 
 #: applications/luci-app-olsr/htdocs/luci-static/resources/view/olsr/status-olsr/routes.js:182
 msgid "Metric"
